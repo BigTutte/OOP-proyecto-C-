@@ -1,0 +1,53 @@
+TESTEO LAB 4
+CON PRECARGA
+1.	ALTA DE USUARIO
+Nick en la línea siguiente
+Después de poner el nombre son 2 enter,
+El texto de la descripción sale uno mas abajo
+Descripción prof1
+Terminar agregar profesor pide un enter mas1
+
+2.	CONSULTA DE USUARIO
+Si no escribis uno de los de la lista SE ROMPE TODO
+3.	ALTA DE IDIOMA
+Al finalizar se precisan dos enter
+Si se ingresa uno que ya esta sale mensaje de idioma repetido ponga otro!!!!
+Si cuando  te pide enter pones cualquier cosa y después das Enter SE PUDRE
+
+4.	CONSULTAR IDIOMAS
+CORRECTO
+5.	ALTA DE CURSO
+Opción te hace ponerlo abajo el dato 
+Después del nombre de curso te pide un enter
+Descripción te lo hace escribir abajo
+
+6.	AGREGAR LECCIÓN
+Después de agregar objetivo son dos enter
+Cuando te pide que pongas que si o no en agregar ejercicio, si escribis otra cosa asume que es NO
+
+Cuando te pide que le digas a que curso queres agregar la lección le pones cualquier numero, uno que no sea los que te muestra disponibles y sigue para adelante
+
+
+7.	AGREGAR EJERCICIO
+Si cuando te pide agregar curso no pones nada te toma el ultimo de la lista que despliega
+Cuando te pide poner S/N si pones cualquier cosa es como si pusieras N
+
+
+8.	HABILITAR CURSO
+
+9.	ELIMINAR CURSO
+
+10.	CONSULTAR CURSO
+
+11.	INSCRIBIRSE A CURSO
+
+12.	REALIZAR EJERCICIO
+
+13.	CONSULTAR ESTADÍSTICAS
+
+14.	SUSCRIBIRSE A NOTIFICACIONES
+15.	CONSULTA DE NOTIFICACIONES
+
+16.	ELIMINAR SUSCRIPCIONES
+
+17.	SALIR

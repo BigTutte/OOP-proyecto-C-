@@ -1,0 +1,68 @@
+----------CONTROLADOR_CURSO----------
++ consultCourse() : vector<String>
++ selectCourseCC() : CourseInfo
++ addLesson() : vector<String> (es lo mismo que consultarCurso())
++ selectCourseAL(course:String)
++ setLesson(topic:String, objective:String)
++ listNonAviableCourses() : vector<String>
++ enableCourse(course:String)
++ setDescription(description:String)
++ addExercise1(phrase:String, translation:String)
++ addExercise2(phrase:String, solution:String)
+
+----------COLECCION_CURSO----------
++ next() : Curso
++ find(course:Curso) : Curso
+
+----------COLECCION_LECCION----------
++ next() : Leccion
++ add(l:Leccion)
+
+----------COLECCION_EJERCICIO----------
++ next() : Ejercicio
++ add(e:Ejercicio)
+
+----------COLECCION_ESTUDIANTE----------
++ next() : Estudiante
+
+----------CURSO----------
++ getName() : String
++ getLanguage() : String
++ getRegInfo() : vector<Student>
++ getLAEInfo() : vector<LessonAndExercises>
++ createLesson(topic:String, objective:String)
++ setAviable(av:bool)
++ newExForLesson()
++ completeExercise1(phrase:String, translation:String)
++ completeExercise2(phrase:String, solution:String)
+
+----------LECCION----------
++ getExList() : vector<Ejercicio>
++ create() : Leccion
++ setTopic(topic:String)
++ setObjective(objective:String)
++ setDescription(description:String)
++ addExercise1(phrase:String, translation:String)
++ addExercise2(phrase:String, solution:String)
++ newExercise()
++ completeExercise1(phrase:String, translation:String)
++ completeExercise2(phrase:String, solution:String)
+
+----------EJERCICIO----------
++ next() : Ejercicio
++ create() : Ejercicio
++ setDescription(description:String)
++ setPhraseToTranslate(phrase:String)
++ setTranslation(translation:String)
++ setPhraseToComplete(phrase:String)
++ setSolution(solution:String)
+
+----------IDIOMA----------
++ getName() : String
+
+----------ESTUDIANTE----------
++ getName() : String
++ getInfo() : Student
+
+----------INSCRIPCION----------
++ getInscriptionDate() : Date
